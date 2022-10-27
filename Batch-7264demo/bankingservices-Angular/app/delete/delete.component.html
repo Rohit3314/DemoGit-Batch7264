@@ -1,0 +1,14 @@
+
+<div align="center">
+    <h3>Enter Data to be delete</h3>
+    <br>
+   <form #deleteform="ngForm" (ngSubmit)="deletedata1(deleteform)">
+   <div>
+       <label>AccNo  :   </label>
+       <input type="number" #accno (ngModel)="accno" id="accno" name="accno"><br><br>
+    <br>
+   
+        <input type="submit" value="Delete Record">
+   </div>
+   </form>
+</div>

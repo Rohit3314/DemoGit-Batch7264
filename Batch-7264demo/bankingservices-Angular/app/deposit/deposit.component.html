@@ -1,0 +1,17 @@
+
+<div align="center">
+    <h3>Deposit data</h3>
+    <br>
+   <form #depositform="ngForm" (ngSubmit)="depositdata1(depositform)">
+   <div>
+       <label>AccNo  :   </label>
+       <input type="number" #accno (ngModel)="accno" id="accno" name="accno"><br><br>
+       <label>Amount to Deposit  :  </label>
+       <input type="number" #balance (ngModel)="balance" id="balance" name="balance"><br><br>
+       
+   <br>
+   
+        <input type="submit" value="Deposit">
+   </div>
+   </form>
+</div>

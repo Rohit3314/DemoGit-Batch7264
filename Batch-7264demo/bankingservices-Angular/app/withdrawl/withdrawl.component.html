@@ -1,0 +1,16 @@
+<div align="center">
+    <h3>Withdrawl data</h3>
+    <br>
+   <form #withdrawlform="ngForm" (ngSubmit)="withdrawdata1(withdrawlform)">
+   <div>
+       <label>AccNo  :   </label>
+       <input type="number" #accno (ngModel)="accno" id="accno" name="accno"><br><br>
+       <label>Amount to Withdraw  :  </label>
+       <input type="number" #balance (ngModel)="balance" id="balance" name="balance"><br><br>
+       
+   <br>
+   
+        <input type="submit" value="Withdraw">
+   </div>
+   </form>
+</div> 

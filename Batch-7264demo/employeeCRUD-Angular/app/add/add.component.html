@@ -1,0 +1,20 @@
+<div align="center">
+    <h3>Insert data</h3>
+    <br>
+   <form #insertform="ngForm" (ngSubmit)="insertdata1(insertform)">
+   <div>
+       <label>ID  :   </label>
+       <input type="number" #eid (ngModel)="eid" id="eid" name="eid"><br><br>
+       <label>Name  :  </label>
+       <input type="text" #ename (ngModel)="ename" id="ename" name="ename"><br><br>
+       <label>Dept  :   </label>
+       <input type="text" #edept (ngModel)="edept" id="edept" name="edept"><br><br>
+       <label>Salary  :  </label>
+       <input type="number" #esalary (ngModel)="esalary" id="esalary" name="esalary"><br><br>
+       
+   <br>
+   
+        <input type="submit" value="Submit">
+   </div>
+   </form>
+</div> 

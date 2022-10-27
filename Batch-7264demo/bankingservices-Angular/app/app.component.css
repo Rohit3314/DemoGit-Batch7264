@@ -1,0 +1,61 @@
+
+.home
+{
+   text-align: left;
+   box-sizing: border-box;
+   flex-direction: column;
+   max-height: fit-content;
+   min-width: none;
+   font-size: medium;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   background-color: aqua;
+   
+}
+
+.mydiv
+{
+    backface-visibility: visible;
+    background-size: auto;
+    background-image:"\assets\neon.jpg";
+}
+
+.about
+{
+   text-align: left;
+   box-sizing: border-box;
+   flex-direction: column;
+   max-height: fit-content;
+   min-width: none;
+   font-size: medium;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   background-color: aqua;
+   
+}
+.contact
+{
+   text-align: left;
+   box-sizing: border-box;
+   flex-direction: column;
+   max-height: fit-content;
+   min-width: none;
+   font-size: medium;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   background-color: aqua;
+   
+}
+.services
+{
+   text-align: left;
+   box-sizing: border-box;
+   flex-direction: column;
+   max-height: fit-content;
+   min-width: none;
+   font-size: medium;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   background-color: aqua;
+   
+}

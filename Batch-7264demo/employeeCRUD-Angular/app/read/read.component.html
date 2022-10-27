@@ -1,0 +1,26 @@
+<div align="center">
+    <h3>Employee Data</h3>
+    <br>
+    
+             <table border="1">
+                         <thead>           
+                                <tr>
+                                <th>ID </th>
+                                <th>Name</th>
+                                <th>Dept</th>
+                                <th>Salary</th>
+                              </tr>
+                              
+                         </thead>
+                         <tbody>
+                         
+                              <tr *ngFor="let d of data">
+                                    <td> {{d.eid}} </td>
+                                    <td> {{d.ename}} </td>
+                                    <td> {{d.edept}} </td>
+                                    <td> {{d.esalary}} </td>
+                              </tr>
+                         
+                        </tbody>
+             </table>
+    </div>

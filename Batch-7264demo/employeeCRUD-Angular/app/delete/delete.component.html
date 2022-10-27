@@ -1,0 +1,13 @@
+<div align="center">
+    <h3>Delete data</h3>
+    <br>
+   <form #deleteform="ngForm" (ngSubmit)="deletedata1(deleteform)">
+   <div>
+       <label>ID  :   </label>
+       <input type="number" #eid (ngModel)="eid" id="eid" name="eid"><br><br>
+   
+        <input type="submit" value="Delete">
+   </div>
+   </form>
+</div> 
+
