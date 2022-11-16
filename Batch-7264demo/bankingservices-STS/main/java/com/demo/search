@@ -1,0 +1,33 @@
+// Search facility --> Additional
+
+@Autowired
+	private Finalrepository finalr;
+	
+	 int searchresult=0;
+	// Api to search facility
+	
+	@CrossOrigin(origins="http://localhost:4200")
+	@PostMapping("/search")
+	public void search(@RequestBody Finalmodel f1)
+	{
+		List<Finalmodel> books = finalr.findAll();
+		String sbook = f1.getBname();
+		double bprice = f1.getBprice();
+	
+        ListIterator i1 = books.listIterator();		
+		while(i1.hasNext())
+		{
+			Finalmodel f3 = (Finalmodel) i1.next();
+			String result = f3.getBname();
+			if(sbook.equals(result))
+			{
+			searchresult =1; 	
+			
+			}
+		}
+		if(searchresult ==1)
+		System.out.println("Book status : available ");
+		else
+		System.out.println("Book status : not available ");
+		
+	}
